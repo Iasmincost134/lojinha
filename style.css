@@ -57,17 +57,14 @@ input{
     border-radius: 10px;
     margin: 20px 0;
     padding: 20px 40px;
-    /* background-color: rgba(239, 199, 255, 0.534); */
-    /* background-image: linear-gradient(25deg, #ab79d4, #b193c2, #b59fb9, #da9ad5); */
-    /* background-image: linear-gradient(25deg, #bf6aca, #d0a0d4, #d0cadd, #fff2e6); */
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 0.527) 0%, rgba(189, 158, 229, 0.452) 100%);
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(236, 189, 209, 0.527) 0%, rgba(189, 158, 229, 0.452) 100%); */
     transition: transform 0.3s ease;
 }
 .produto:hover{
     transform: scale(1.05);
     background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(189,158,229,1) 100%);
+    background: radial-gradient(circle, rgba(236, 189, 209, 0.527) 0%, rgba(189, 158, 229, 0.452) 100%);
 }
 .banner img{
    width: 100%;
@@ -94,4 +91,11 @@ button:hover{
 
 h2{
     font-family: 'Dancing Script', cursive;
+}
+
+h3, p{
+    font-family:'Open Sans', sans-serif; 
+}
+h3, p, button{
+    margin: 10px 0;
 }
